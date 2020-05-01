@@ -1,0 +1,17 @@
+* {
+    background-color: #0c1c36 !important;
+    color: white !important;
+}
+
+#grille {
+    height: 67px;
+    background-color: #0c1c36 !important; 
+}
+
+#param a:hover, #tendance a:hover {
+    color: #4dbdff !important;
+    padding: 8px 8px;
+    background-color: #343055 !important;
+    border-radius: 29px;
+    margin: 0;
+}

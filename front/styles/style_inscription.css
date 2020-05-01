@@ -1,0 +1,55 @@
+#logo img {
+	margin-top: 20% !important;
+	max-width:85%;
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+form div #subscribe {
+	margin-top: 3% !important;
+	background: #4dbfff;
+	border: 2px solid #4dbdff;
+	border-radius: 29px;
+	padding: 8px 44px;
+	color: #ffffff;
+	font: normal bold 20px/1 "Calibri", sans-serif;
+	text-transform: none;
+}
+
+div #submit {
+	margin-bottom: -0.8rem !important;
+	margin-top: 20px;
+	background: #ffffff;
+	border: 2px solid #4dbdff;
+	border-radius: 29px;
+	padding: 8px 22px;
+	color: #4dbdff;
+	font: normal bold 20px/1 "Calibri", sans-serif;
+	text-transform: none;
+}
+
+.label_inscr {
+	font-size: 1.2em !important;
+}
+
+#center {
+	margin-top: 0% !important;
+	margin-bottom: 3% !important;
+}
+
+.champ {
+    width: 93%;
+}
+
+.date {
+    width: 88%;	
+}
+
+.button {
+	display: block !important;
+	margin: auto !important;
+}
+
+a {
+	text-decoration: none !important;
+}

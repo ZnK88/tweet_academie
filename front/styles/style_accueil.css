@@ -1,0 +1,168 @@
+.container {
+    max-width: 100% !important;
+}
+
+#grille{
+    height: 62px;
+    background-color: #ffffff !important;
+    border: 0.5px solid #e4ebeb;
+}
+
+#logotwitter {
+    position: absolute;
+    width: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#recherche {
+    margin-top: 4px;
+    margin-right: 8px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #e4ebeb;
+    font-weight:bold !important;
+
+}
+
+#divrecherche {
+    margin: 0;
+    padding-left: 25%;
+    background-color: white;
+}
+
+#recherche:hover {
+    background-color: #ffffff; 
+}
+
+#bouton_recherche {
+	background: #ffffff;
+	border: 2px solid #4dbdff;
+	border-radius: 29px;
+	padding: 6px 12px;
+	color: #4dbdff;
+    font: normal bold 14px/1 "Calibri", sans-serif;
+    text-transform: none;
+}
+
+p {
+    font-size: 18px !important;
+}
+
+#menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin-top: 0%;
+}
+
+#param {
+    width: 15%;
+}
+
+#tendance {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin-top: 0%;
+    padding-left: 10%;
+}
+
+#param a, #tendance a {
+    font: normal bold 22px/3 "Calibri", sans-serif;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 8px 8px;
+    margin: 0;
+}
+
+#param a:hover, #tendance a:hover {
+    color: #4dbdff;
+    padding: 8px 8px;
+    background-color: #e4ebeb;
+    border-radius: 29px;
+    margin: 0;
+}
+
+#flux {
+    border-left: 0.5px solid #e4ebeb;
+    border-right: 0.5px solid #e4ebeb;
+    border-bottom: 0.5px solid #e4ebeb;
+
+}
+
+#photostatus {
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    position: absolute;
+    background-image: url("../../images/profil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    border: 3px solid white; 
+}
+
+#statusedit {
+    margin-top: 10px;
+    padding-top: 2%;
+    margin-left: 123px !important;
+    font: normal 19px/1 "Calibri", sans-serif;
+    margin-left: 11%;
+    outline: none;
+    user-select: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    overflow: auto;
+    min-height: 100px;
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+    content:attr(data-text);
+    color:gray;
+}
+
+#statustest {
+    padding-right: 8px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    border-top: 1px solid #e4ebeb;
+    font: normal 17px/1 "Calibri", sans-serif;
+}
+
+#photostatusactu {
+    margin-right: 8px !important;
+    background-image: url("../../images/profil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.content{
+    word-break: break-word;
+}
+
+#pushtweet {
+    margin-right: 3%;
+    margin-top: 3%;
+	background: #4dbfff;
+	border: 2px solid #4dbdff;
+	border-radius: 29px;
+	padding: 8px 20px;
+	color: #ffffff;
+    font: normal bold 15px/1 "Calibri", sans-serif;
+    text-transform: none;
+}
+
+#fluxdirect {
+    margin-top: 80px;
+}
